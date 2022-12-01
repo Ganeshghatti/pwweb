@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "style.css" >
+    <title> PW.Live </title>
+</head>
+<body><header>
+    <hr>
+  <div class="headd">
+        <span class="logo">
+          <img src = "https://th.bing.com/th/id/OIP.Z4o9htajpxoOZDyLW-LKuQHaHa?w=163&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt = "logo" width="35%" >
+        </span>
+        <span class="title">
+            <h2>physics WALLAH</h2>
+        </span>
+        <span class="banner">
+            <img src = "banner.png" alt = "banner" width="50%" >
+        </span>
+        <span class="alakh_pandey">
+            <img src = "/alakh.jpg" alt = " alakhpandeyy"  width="10%">
+        </span>
+  </div>
+  <hr>
+  <div class="baar">
+    <nav>
+        <span class="home">
+            <a href="/html/">HOME</a>
+        </span>
+        <span class="batches">
+            <a href="/css/">BATCHES</a>
+        </span>
+        <span class="mission">
+            <a href="/js/">MISSION</a>
+        </span>
+        <span class="about">
+            <a href="/about.html">ABOUT</a>
+        </span>
+        <span class="email">
+            <a href="support@pw.live">support@pw.live</a>
+        </span>
+        <span class="youtube">
+            <a href="https://youtube.com/c/PhysicsWallah">
+                <img src="yt.png" alt="youtube" width="23px">
+                </a>
+        </span>
+        <span class="insta">
+            <a href="https://www.instagram.com/physicswallah/?hl=en">
+                <img src="insta.jpg" alt="insta" width="20px">
+                </a>
+        </span>
+        <span class="loginlogo">
+            <a href="/login/">
+                <img src="login.png" alt="login" width="20px">
+                </a>
+        </span>
+        <span class="logintext">
+            <a href="/login/">login</a>>
+
+            </a>
+        </span>
+
+    </nav>
+  </div>
+    <HR>
+        <div class="aboutpage">
+            <h1>Know about Physics Wallah</h1>
+            Physics Wallah is India's top online ed-tech platform that provides affordable and <br>comprehensive learning experience to students of classes 6 to 12 and <br>those preparing for JEE and NEET exams. We also provide extensive NCERT solutions, <br>sample papers, NEET, JEE Mains, BITSAT previous year papers, <br>which makes us a one-stop solution for all resources.<br>
+            
+            Physics Wallah also caters to over 3.5 million registered students <br>and over 78 lakh+ Youtube subscribers with 4.8 rating on its app.<br>
+            
+            <h1>We Stand Out because</h1>
+            We successfully provide students with intensive <br>courses by India's top faculties and personal mentors.<br> PW strives to make the learning experience comprehensive<br> and accessible for students of all sections of society.<br> We believe in empowering every single student <br>who couldn’t dream of a good career in <br>engineering and medical field earlier.<br>
+            
+            <h1>Our Key Focus Areas</h1>
+            Physics Wallah's main focus is to make<br> the learning experience as economical<br> as possible for all students.<br> With our affordable courses like Lakshya,<br> Udaan and Arjuna and many others, we have been able to provide<br> a platform for lakhs of aspirants.<br> From providing Chemistry, Maths, Physics formula to <br>giving e-books of eminent authors like RD Sharma,<br> RS Aggarwal and Lakhmir Singh, PW focuses on <br>every single student's need for preparation.<br>
+            
+            <h1>What Makes Us Different</h1>
+            Physics Wallah strives to develop a comprehensive<br> pedagogical structure for students, where they get<br> a state-of-the-art learning <br>experience with study material and resources.<br> Apart from catering students preparing for JEE Mains and NEET,<br> PW also provides study material for each state board <br>like Uttar Pradesh, Bihar, and others.<br>
+            
+        </div>
+        
+</header></body>
+</html>
+
+
+
+
+
+div.headd{
+  background-color: white;
+  height: 115px;
+}
+
+span.logo{
+  position:absolute;
+  top: 35px;
+  right: 83%;
+}
+
+.title{
+  position:absolute;
+  text-transform: uppercase;
+  top: 40px;
+  right: 75%;
+}
+
+.banner{
+  position: absolute;
+  top: 13px;
+  right: -20%;
+}
+
+.alakh_pandey{
+  position:relative;
+  left: 1350px;
+  top: -4px;
+}
+
+span.home{
+  position:relative;
+  left: 25px;
+  width: 75px;
+  color: black;
+}
+
+span.batches{
+  position:relative;
+  left: 50px;
+  width: 75px;
+  color: black;
+}
+
+span.mission{
+  position:relative;
+  left: 75px;
+  width: 75px;
+  color: black;
+}
+
+span.about{
+  position:relative;
+  left: 100px;
+  width: 75px;
+  color: black;
+}
+
+span.email{
+  position:relative;
+  left: 900px;
+  width: 75px;
+}
+
+span.youtube{
+  position:relative;
+  left: 930px;
+  width: 75px;
+}
+span.insta{
+  position:relative;
+  left: 960px;
+  width: 75px;
+}
+
+span.loginlogo,span.logintext{
+  position:relative;
+  left: 990px;
+  width: 75px;
+}
+
+.aboutpage{
+  background-image: url("/bg2.jpg");
+  background-size: 100%;
+  background-repeat: repeat-y;
+  color: white;
+  text-align: center;
+}
